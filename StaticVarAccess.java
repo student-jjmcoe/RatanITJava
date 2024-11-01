@@ -1,0 +1,12 @@
+class StaticVarAccess
+{
+static int a=10;
+public static void main(String[]args)
+{
+System.out.println(StaticVarAccess.a);
+System.out.println(a);
+
+StaticVarAccess x = new StaticVarAccess();
+System.out.println(x.a);
+}
+}
